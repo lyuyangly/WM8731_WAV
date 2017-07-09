@@ -32,10 +32,10 @@ begin
 		case(LUT_INDEX)
 			0 	: 	LUT_DATA	<= 	{7'd0, 9'b000010111}; // L Line Input Vol
 			1 	: 	LUT_DATA	<= 	{7'd1, 9'b000010111}; // R Line Input Vol
-			2 	: 	LUT_DATA	<=	{7'd2, 9'b001110001}; // L Vol
-			3 	: 	LUT_DATA	<= 	{7'd3, 9'b001110001}; // R Vol
-			4 	: 	LUT_DATA	<= 	{7'd4, 9'b001111010}; // Analog Path
-			5 	: 	LUT_DATA	<= 	{7'd5, 9'b000001000}; // Digital Path
+			2 	: 	LUT_DATA	<=	{7'd2, 9'b001000001}; // L Vol
+			3 	: 	LUT_DATA	<= 	{7'd3, 9'b001000001}; // R Vol
+			4 	: 	LUT_DATA	<= 	{7'd4, 9'b000010000}; // Analog Path
+			5 	: 	LUT_DATA	<= 	{7'd5, 9'b000000000}; // Digital Path
 			6 	: 	LUT_DATA	<= 	{7'd6, 9'b000000000}; // Power Down
 			7 	: 	LUT_DATA	<= 	{7'd7, 9'b000000010}; // Interface Format
 			8 	: 	LUT_DATA	<= 	{7'd8, 9'b000011000};
